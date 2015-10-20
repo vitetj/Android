@@ -1,0 +1,157 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="NewApi">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.TranslucentActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.Light.TranslucentActionBar" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/Widget.Light.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/Widget.Light.ActionBar.Transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.TranslucentActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar</item>
+    </style>
+
+    <style name="Theme.TranslucentActionBar.ActionBar" />
+
+    <style name="Theme.TranslucentActionBar.ActionBar.Overlay">
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="blue" parent="AppTheme.Light.TranslucentActionBar">
+        <item name="magazine_ab_background_light">@drawable/ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/home_drawer_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+        <item name="magazine_ic_action_font_size">@drawable/ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/single_category_right_arrow</item>
+        <item name="category_title">@color/category_title</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview</item>
+        <item name="magazine_single_item_round">@drawable/round_drawable</item>
+        <item name="android:logo">@drawable/ic_launcher</item>
+        <item name="overflow_bg">@color/overflow_bg</item>
+        <item name="round_logo">@drawable/about_rounded_logo</item>
+        
+                
+    </style>
+
+    <style name="green" parent="AppTheme.Light.TranslucentActionBar">
+        <item name="magazine_ab_background_light">@drawable/green_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/green_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/green_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/green_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/green_home_drawer_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/green_ic_action_back</item>
+        <item name="magazine_ic_action_font_size">@drawable/green_ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/green_ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/green_ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/green_single_category_right_arrow</item>
+        <item name="category_title">@color/category_title_green</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_green</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_green</item>
+        <item name="magazine_single_item_round">@drawable/round_drawable_green</item>
+        <item name="android:logo">@drawable/green_ic_launcher</item>
+        <item name="overflow_bg">@color/overflow_bg_green</item>
+        <item name="round_logo">@drawable/green_about_rounded_logo</item>
+    </style>
+    
+    <style name="pink" parent="AppTheme.Light.TranslucentActionBar">
+        <item name="magazine_ab_background_light">@drawable/pink_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/pink_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/pink_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/pink_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/pink_home_drawer_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/pink_ic_action_back</item>
+        <item name="magazine_ic_action_font_size">@drawable/pink_ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/pink_ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/pink_ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/pink_single_category_right_arrow</item>
+        <item name="category_title">@color/category_title_pink</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_pink</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_pink</item>
+        <item name="magazine_single_item_round">@drawable/round_drawable_pink</item>
+        <item name="android:logo">@drawable/pink_ic_launcher</item>
+        <item name="overflow_bg">@color/overflow_bg_pink</item>
+        <item name="round_logo">@drawable/pink_about_rounded_logo</item>
+    </style>
+    
+    <style name="dark" parent="AppTheme.Light.TranslucentActionBar">
+        <item name="magazine_ab_background_light">@drawable/dark_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/dark_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/dark_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/dark_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/dark_home_drawer_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/dark_ic_action_back</item>
+        <item name="magazine_ic_action_font_size">@drawable/dark_ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/dark_ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/dark_ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/dark_single_category_right_arrow</item>
+        <item name="category_title">@color/category_title_dark</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_dark</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_dark</item>
+        <item name="magazine_single_item_round">@drawable/round_drawable_dark</item>
+        <item name="android:logo">@drawable/dark_ic_launcher</item>
+        <item name="overflow_bg">@color/overflow_bg_dark</item>
+        <item name="round_logo">@drawable/dark_about_rounded_logo</item>
+    </style>
+    
+    <style name="orange" parent="AppTheme.Light.TranslucentActionBar">
+        <item name="magazine_ab_background_light">@drawable/orange_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/orange_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/orange_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/orange_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/orange_home_drawer_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/orange_ic_action_back</item>
+        <item name="magazine_ic_action_font_size">@drawable/orange_ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/orange_ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/orange_ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/orange_single_category_right_arrow</item>
+        <item name="category_title">@color/category_title_orange</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_orange</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_orange</item>
+        <item name="magazine_single_item_round">@drawable/round_drawable_orange</item>
+        <item name="android:logo">@drawable/orange_ic_launcher</item>
+        <item name="overflow_bg">@color/overflow_bg_orange</item>
+        <item name="round_logo">@drawable/orange_about_rounded_logo</item>
+    </style>
+    
+    <style name="red" parent="AppTheme.Light.TranslucentActionBar">
+        <item name="magazine_ab_background_light">@drawable/red_ab_background_light</item>
+        <item name="magazine_ic_drawer">@drawable/red_ic_drawer</item>
+        <item name="magazine_home_category_item">@drawable/red_home_category_icon</item>
+        <item name="magazine_home_drawer_active_arrow">@drawable/red_home_drawer_active_arrow</item>
+        <item name="magazine_home_drawer_arrow">@drawable/red_home_drawer_arrow</item>
+        <item name="android:homeAsUpIndicator">@drawable/red_ic_action_back</item>
+        <item name="magazine_ic_action_font_size">@drawable/red_ic_action_font_size</item>
+        <item name="magazine_ic_action_overflow">@drawable/red_ic_action_overflow</item>
+        <item name="magazine_ic_action_share">@drawable/red_ic_action_share</item>
+        <item name="magazine_single_right_arrow">@drawable/red_single_category_right_arrow</item>
+        <item name="category_title">@color/category_title_red</item>
+        <item name="selector_list_item_categories_arrow">@drawable/selector_list_item_category_arrow_red</item>
+        <item name="selector_list_item_categories_textview">@drawable/selector_list_item_category_textview_red</item>
+        <item name="magazine_single_item_round">@drawable/round_drawable_red</item>
+        <item name="android:logo">@drawable/red_ic_launcher</item>
+        <item name="overflow_bg">@color/overflow_bg_red</item>
+        <item name="round_logo">@drawable/red_about_rounded_logo</item>
+    </style>
+    
+    </resources>

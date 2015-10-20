@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_bg" >
+
+    <ImageView
+        android:id="@+id/image_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_top_bg" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image_header"
+        android:src="@drawable/home_curve" />
+
+    <ImageView
+        android:id="@+id/about_fragment_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-70dp"
+        android:src="?attr/round_logo" />
+
+</RelativeLayout>

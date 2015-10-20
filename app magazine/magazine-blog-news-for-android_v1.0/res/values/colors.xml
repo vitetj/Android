@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="category_title">#289eda</color>
+    <color name="category_title_green">#6abf58</color>
+    <color name="category_title_pink">#bc0d35</color>
+    <color name="category_title_orange">#ff6600</color>
+    <color name="category_title_dark">#2b2e2e</color>
+    <color name="category_title_red">#b9121b</color>
+    
+    <color name="category_text">#333333</color>
+    <color name="category_date">#666666</color>
+    <color name="sliding_menu_text">#333333</color>
+    <color name="separator">#e9e9e9</color>
+    
+    
+    <color name="sliding_selected_state">#e9e9e9</color>
+    <color name="white_bg">#fefefe</color>
+    
+    <color name="single_post_text">#333333</color>
+    
+    <color name="white_bg_90_transparent">#e6fefefe</color>
+    
+    <color name="font_example">#999999</color>
+    
+    <!-- Overflow menu background  -->
+    <color name="overflow_bg">#e60D628D</color>
+    <color name="overflow_bg_green">#e637732a</color>
+    <color name="overflow_bg_dark">#e6000000</color>
+    <color name="overflow_bg_orange">#e6b34700</color>
+    <color name="overflow_bg_pink">#e670001a</color>
+    <color name="overflow_bg_red">#e66e0005</color>
+    
+    <!-- Loading Dialog -->
+    <color name="loading_color">#FFFFFF</color>
+    
+</resources>
